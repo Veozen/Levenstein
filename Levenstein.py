@@ -51,6 +51,4 @@ def LevDist(a: str,b: str):
     return Lev(a,b)
     
 LevDist("abce","cdab")
-LevDist("ChristianGagne","GagneChristian")
-LevDist("JosephAndreChristianGagne","JosephGagneChristianAndre")
-LevDist("JosephAndreChristianGagne","GagneChristianAndreJoseph")
+LevDist("JohnSmith","SmithJohn")
