@@ -1,3 +1,4 @@
+"""
 def LevDist(a: str,b: str):
     memo={}
     
@@ -49,7 +50,7 @@ def LevDist(a: str,b: str):
             return Dist
     
     return Lev(a,b)
-
+"""
 
 from functools import  cache
 
@@ -66,7 +67,7 @@ def Lev(s: str,t: str):
           Dist = Lev(s[1:],t[1:])
       else:
           
-          #find the longes prefix in s that can be found in t
+          #find the longest prefix in s that can be found in t
           DistPrefixS=max(len(s),len(t))
           for l in range(len(s),1,-1):
               prefix=s[:l]
