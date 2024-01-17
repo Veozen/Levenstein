@@ -99,5 +99,5 @@ def Lev(s: str,t: str):
 
 
 
-LevDist("abce","cdab")
-LevDist("JohnSmith","SmithJohn")
+Lev("abce","cdab")
+Lev("JohnSmith","SmithJohn")
